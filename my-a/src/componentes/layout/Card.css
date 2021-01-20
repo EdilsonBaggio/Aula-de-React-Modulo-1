@@ -1,0 +1,26 @@
+.card{
+    flex: 1;
+    overflow: hidden;
+    margin: 20px;
+    border: 1px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.card .conteudo{
+    flex: 1;
+    background-color: #fff;
+    color: #000;
+    padding:10px;
+}
+
+.card .footer{
+    background-color: #000;
+    color: #fff;
+    padding:10px 0px;
+}
