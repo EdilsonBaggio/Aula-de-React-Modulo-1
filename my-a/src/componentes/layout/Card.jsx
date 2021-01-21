@@ -4,7 +4,7 @@ import React from 'react'
 export default props =>
 
    <div className="card">
-        <div className="conteudo">
+        <div className="content">
             {props.children}
         </div>
 
